@@ -1,24 +1,255 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário HTML</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
+
 <body>
-    <header> <h1>FORMULÁRIO HTML</h1></header>
-    <!-- Formulário -->
-    <div>
-        <label>Nome: </label><input name="nome" type="text" placeholder="Nome Completo">
-    </div>
-    <div>
-        <label>Email:</label><input  name="email" type="email" placeholder="exemplo@email.com">
-    </div>
-    <div>
-        <label>Senha: </label><input  name="senha" type="password">
-    </div>
-    <div>
-        <button type=submit>Cadastrar</button>
-    </div>
+    <header>
+        <div class="container">
+            <h1>Meu portal de notícias</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    </li>
+                    <li>
+                        <a href="#economy" title="Ir para a seção de economia">Economia</a>
+                    </li>
+                    <li>
+                        <a href="#games" title="Ir para a seção de games">Games</a>
+                    </li>
+                    <li>
+                        <a href="#noticias" title="Ir para a seção de notícias">Economia</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="sports">
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Grande clássico na noite de hoje</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/futebol-americano.jpg"
+                        alt="Jogador de futebol americano correndo com a bola na mão" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Noite do Superbowl</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Notícia sobre a NBA</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container">
+            <h2>Economia</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Dólar em alta de 0.50%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Euro em queda de 0.40%</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>Alta no preço do barril do petróleo</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                        consequuntur doloremque totam labore architecto. Corporis adipisci
+                        optio placeat quibusdam totam iure veritatis quam, ullam tenetur
+                        error? Laborum, modi itaque. Sunt.
+                    </p>
+                    <a href="#" title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="games">
+        <div class="container">
+            <h2>Games</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/loud-cblol-2022-2-split.jpg" alt="time da Loud" />
+                    <header>
+                        <time>14/02/2024 às 09:20</time>
+                    </header>
+                    <h3>CBLOL 2024: LOUD se mantém na liderança da 7ª rodada</h3>
+                    <p>
+                        Neste sábado (10/02), aconteceu a sétima rodada do CBLOL 2024 que
+                        se encerrou com o confronto de KaBuM x INTZ, uma partida tranquila
+                        para a KaBuM. A liderança do CBLOL 2024 permanece com a LOUD, e na
+                        sequência: paiN, VKS e KaBuM seguem empatadas na segunda posição
+                    </p>
+                    <a href="https://maisesports.com.br/cblol-2024-loud-se-mantem-na-lideranca-da-7a-rodada/"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/marvel-s-spider-man-2-ja-tem-janela-de-lancamento-para-chegar-ao-pc-101697.jpg"
+                        alt="Spider-Man" />
+                    <header>
+                        <time>14/02/2024 às 09:35</time>
+                    </header>
+                    <h3>Marvel’s Spider-Man 2 alcança novo recorde de vendas</h3>
+                    <p>
+                        O jogo Marvel’s Spider-Man 2 acaba de atingir a incrível marca de
+                        10 milhões de unidades vendidas em todo o mundo. Lançado
+                        recentemente, o jogo de ação e aventura baseado no famoso
+                        super-herói da Marvel conquistou os fãs e se tornou um verdadeiro
+                        sucesso de público e crítica.
+                    </p>
+                    <a href="https://nitro.r7.com/games/o-vicio/marvels-spider-man-2-alcanca-novo-recorde-de-vendas-14022024"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/helldivers-2.jpg" alt="capa do jogo Helldivers 2" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>
+                        Helldivers 2 | Conheça o jogo de PS5 que está chamando atenção
+                    </h3>
+                    <p>
+                        O mercado atual de games não é muito fã de jogos de serviço, algo
+                        que o novo título do Esquadrão Suicida sentiu na pele de forma bem
+                        dolorida. Ao mesmo tempo, Helldivers 2 surgiu como um ponto fora
+                        desta mesma curva, entregando o tipo de ação simples e objetiva,
+                        com soldados mascarados, que poderia ser facilmente chamada de
+                        “genérica”, mas acabou ganhando adjetivos bem mais positivos.
+                    </p>
+                    <a href="https://canaltech.com.br/games/helldivers-2-conheca-o-jogo-de-ps5-que-esta-chamando-atencao-278935/"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="noticias">
+        <div class="container">
+            <h2>Noticias</h2>
+            <div class="articles">
+                <article>
+                    <img src="./imagens/ia.webp"
+                        alt="Pessoa digitando em um notebook com uma marca d'água com um simbolo de IA" />
+                    <header>
+                        <time>07/02/2024 às 12:21</time>
+                    </header>
+                    <h3>
+                        Carreira em IA: 6 passos para conquistar os melhores cargos e
+                        salários
+                    </h3>
+                    <p>
+                        O crescimento exponencial da IA vem acompanhado de boas
+                        oportunidades de emprego e salário; veja como se qualificar
+                        gratuitamente para liderar projetos na área
+                    </p>
+                    <a href="https://exame.com/carreira/carreira-em-ia-6-passos-para-conquistar-os-melhores-cargos-e-salarios/"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/meteorologico.webp" alt="mapa meteorológico" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>
+                        Ciclone subtropical impulsiona tempestades com granizo no Sudeste.
+                        Acumulados podem passar dos 100 mm até o domingo
+                    </h3>
+                    <p>
+                        Tempestades já se formaram em São Paulo nesta terça-feira (13) e,
+                        impulsionadas pela configuração de um novo ciclone extratropical
+                        no litoral do Sudeste brasileiro, continuarão causando tempo
+                        severo até o fim de semana.
+                    </p>
+                    <a href="https://www.tempo.com/noticias/previsao/ciclone-subtropical-impulsiona-tempestades-com-granizo-no-sudeste-acumulados-podem-passar-dos-100-mm-ate-o-domingo.html"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+                <article>
+                    <img src="./imagens/bomba-israel.jpg" alt="Fumaça de bomba em Israel" />
+                    <header>
+                        <time>13/07/2022 às 12:35</time>
+                    </header>
+                    <h3>
+                        Brasil diz que operação de Israel em Rafah terá
+                        <strong>graves consequências</strong>
+                    </h3>
+                    <p>
+                        O governo brasileiro divulgou uma nota, nesta terça-feira, na qual
+                        afirma que “grande preocupação” com o anúncio, por parte de
+                        autoridades israelenses, de preparação de nova operação militar
+                        terrestre na Faixa de Gaza, desta vez no Sul, na região de Rafah,
+                        na fronteira com o Egito.
+                    </p>
+                    <a href="https://oglobo.globo.com/mundo/noticia/2024/02/13/brasil-diz-que-operacao-de-israel-em-rafah-tera-graves-consequencias.ghtml"
+                        title="Leia a notícia completa">Ler mais</a>
+                </article>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
